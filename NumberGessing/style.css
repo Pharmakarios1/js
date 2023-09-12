@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: auto;
+    box-sizing: content-box;
+}
+
+:root{
+    --green:#27ae60;
+    --black:#000;
+    --greener:#006838;
+    --box-shadow:0 .5rem 1.5rem #006838;
+    --text:#96CF24;
+    --footer: #d3d3d3;
+}
+
+h1{
+    width: 90vw;
+    height: 70px;
+    text-align: center;
+    font-size: 50px;
+    color: var(--greener);
+    margin: 50px;
+    box-shadow:var(--box-shadow);
+    border-radius: 10px;
+    padding: 20px;
+}
+label{
+    font-size: 40px;
+    color: var(--greener);
+    justify-content:center;
+    margin-left: 80px;
+}
+#textbox{
+    width: 40vw;
+    height: 50px;
+    font-size: 30px;
+    margin-left: 80px;
+    border-radius: 10px;
+    border: 2px solid var(--greener);
+}
+#btn{
+    height: 50px;
+    font-size: 30px;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: 2px solid var(--greener);
+    background-color: var(--greener);
+    color: var(--text);
+    position: relative;
+    left: 30%;
+}
+#btn:hover{
+    background-color: var(--text);
+    color: var(--greener);
+    cursor: pointer;
+    border: 2px solid var(--text);
+}
+
+.footer{
+    width: 100vw;
+    height: 50px;
+    background-color: var(--footer);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    font-size: 20px;
+    color: var(--black);
+    padding: 10px;
+}
+.card{
+    width: 200px;
+    height: 400px;
+    border:2px solid var(--greener);
+    margin-top: -50px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: var(--text);
+    box-shadow: var(--box-shadow);
+    transform: translate(1300px);
+}
+.card p{
+    color: var(--greener);
+    font-size: 25px;
+    margin-top: -10px;
+    text-align: center;
+    font-weight: bolder;
+}
